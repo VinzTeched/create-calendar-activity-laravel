@@ -1,0 +1,288 @@
+body{
+  overflow-wrap: break-word !important;
+  overflow-x: hidden;
+}
+
+.sidebar-bg{
+	background:#004720 !important;	
+	border-color: none !important;
+}
+
+.sidebar-adminbg{
+	background:#441102 !important;	
+	border-color: none !important;
+}
+
+.navbar-olored{
+	background:#dc011b !important;	
+	border-color: none !important;
+}
+
+.b__color{
+	border-color: #004f23 !important;
+}
+
+.btn-philex{
+  background: linear-gradient(#01411e, #01100b);
+  color: #fff;
+  padding: .4em 2em;
+  width: 100%;
+  border:none;
+
+}
+
+.btn-philex:hover{
+  background: linear-gradient(#fd7e14, #01100b) !important;
+  color: #fff;
+}
+
+.text-small{
+	font-size: 13px;
+}
+
+.infos__out{
+	width: 100%;
+	height: auto;
+	background: red;
+}
+
+.bill-right{
+	width: 50%;
+	float: right;
+}
+ 
+.ship-left{
+	width: 50%;
+	float: left;
+}
+
+.card-change{
+	background: none !important;
+}
+
+.nav__full{
+  width: 50% !important;
+}
+
+.nav__full .nav-link{
+  border:none !important;
+    text-align: center;
+  color:#000 !important;
+  padding: 1em 0em; 
+}
+
+.nav__full .active:focus,.nav__full .active:hover,.nav__full .active:active{
+  border-bottom: 4px solid #dc011b !important;
+
+}
+
+.nav__full .active{
+  border:none;
+  	border-bottom: 4px solid #dc011b !important;
+}
+
+.card-primary .nav-tab{
+  border:none;
+}
+
+ 
+.btn-phill{
+	background: linear-gradient(#dc011b, #a90008);
+	padding: .6em 10%;
+	display: inline-block;
+	color: #fff;
+}
+
+.btn-phill:hover{
+	box-shadow: 0px 0px 10px #222;
+	color: #fff;
+}
+
+.billing__under{
+	padding: 1em 0em;
+	border-bottom: 4px solid #dc011b;
+}
+
+.show__billing{
+	background: #eee;
+	border: 1px solid #ccc;
+}
+
+#is__address .card{
+	box-shadow: none !important;
+	background: none !important;
+
+}
+
+#is__address .nav-link.active{
+	background: none !important;
+}
+
+.display__big,.display__small{
+	display: none;
+}
+
+@media screen and (max-width: 400px){
+	.display__small{
+		display: block;
+	}
+}
+
+@media screen and (min-width: 400px){
+	.display__big{
+		display: block;
+	}
+}
+
+
+/***************** Admin *************************/
+
+.dashboard .card .card-info ul li:last-child {
+    border-bottom: 0;
+}
+
+.dashboard .card .card-info ul li {
+    border-bottom: 1px solid hsla(0,0%,63.5%,.2);
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0;
+    position: relative;
+}
+
+.card .card-info ul li .image {
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-right: 15px;
+}
+
+.card .card-info ul li .image img{
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-right: 15px;
+}
+
+.dashboard .card .card-info ul li .description .name {
+    color: #0041ff;
+}
+
+.dashboard .card .card-info ul li .description .info {
+    color: #3a3a3a;
+    margin-top: 5px;
+}
+.dashboard .card .card-info ul li .fa.fa-angle-right {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    margin-top: -8px;
+}
+.angle-right-icon {
+    background-image: url(../dist/img/Angle-Right.svg);
+    width: 17px;
+    height: 17px;
+}
+.icon {
+    display: inline-block;
+    background-size: cover;
+}
+
+.content .card-header .page-action * {
+    display: inline-block;
+}
+
+.content .card-header .page-action {
+    float: right;
+}
+
+.export-import {
+    cursor: pointer;
+}
+.content .card-header .page-action a {
+    margin-left: 25px;
+}
+.export-import .export-icon, .export-import .import-icon {
+    position: relative;
+}
+.export-icon {
+    background-image: url(../images/Icon-Export.svg);
+    width: 32px;
+    height: 32px;
+}
+
+.fixed-banner{
+	display: inline-block;
+	width: 100%;
+	padding: ;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0px;
+	z-index: 1027;
+	background-color: #fff;
+}
+
+.preview_img img{
+	width: 200px !important;
+	height: 200px !important;
+}
+/*
+input[type="file"] {
+  display: block;
+}
+
+.imageThumb {
+  max-height: 75px;
+  border: 2px solid;
+  padding: 1px;
+  cursor: pointer;
+}
+.pip {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+}
+.remove {
+  display: block;
+  background: #444;
+  border: 1px solid black;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+.remove:hover {
+  background: white;
+  color: black;
+}
+*/
+.style-image{
+	margin-right: 20px;
+	background: #f8f9fa;
+	width: 200px;
+	height: 200px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+	background-image: url(../dist/img/placeholder-icon.svg);
+	background-repeat: no-repeat;
+	background-position: 50%;
+	float: left;
+}
+
+.image-wrapper {
+    margin-top: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+.image-wrapper .remove-image {
+    background-image: linear-gradient(-180deg,rgba(0,0,0,.08),rgba(0,0,0,.24));
+    border-radius: 0 0 4px 4px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,.24);
+    margin-right: 20px;
+    cursor: pointer;
+}
